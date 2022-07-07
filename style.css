@@ -1,0 +1,270 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+}
+
+
+.top-banner{
+    background-image: url(images/donation7.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    border: 0;
+    transition: none;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    
+    
+    }
+    .banner-text1{
+        display: block;
+    }
+
+.banner-text{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.title-one{
+ font-size: 50px;
+ font-weight: bolder;
+    
+}
+
+.banner-button{
+    background-color: orangered;
+    height: 50px;
+    width: 140px;
+    border: 0;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.donated-amount{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+    font-weight: bolder;
+   text-align: center;
+   vertical-align:middle ;
+   
+    
+}
+
+.hidden-border{
+    border: opx hidden #faf9f7;
+    width:200px;
+    height:110px ;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(229, 236, 241);
+    
+}
+
+.border{
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    padding-top: 45px;
+    color: red;
+    background-color: moccasin;
+    border-radius: 8px;
+    text-align: center;
+    display: table-cell;
+    
+
+    
+}
+
+.donate-tday{
+    text-align: center;
+}
+
+.text-box{
+    font-size: 50px;
+}
+
+.input-amt{
+   
+    text-align: center;
+  
+    
+}
+
+#amount{
+    border: none;
+    width: 80%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 30px;
+    }
+
+.donate-btn{
+    background-color: orangered;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.button-align{
+    text-align: center;
+}
+
+.bonus-container{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+.bonus-part img{
+height: 400px;
+padding-left: 50px;
+}
+
+.bonus-container p{
+    text-align: left;
+}
+.text-container{
+    width: 30%;
+    height: 40%;
+}
+
+.donate-plan{
+    text-align: center;
+    padding-top: 50px;
+    }
+
+.our-donate-plan{
+    font-size: 50px;
+}
+
+.donate-plan-btn{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.donate-food{
+    border: opx hidden #faf9f7;
+    width:230px;
+    height:150px ;
+    text-align: center;
+    padding-top: 40px;
+    background-color: darkgray;
+    background-image: url(icons/food.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    
+}
+    
+.donate-shelter{
+    border: opx hidden #faf9f7;
+    width:230px;
+    height:150px ;
+    text-align: center;
+    padding-top: 40px;
+   background-color: lightpink;
+   background-image: url(icons/shelter.png);
+   background-repeat: no-repeat;
+}
+
+.donate-education{
+    border: opx hidden #faf9f7;
+    width:230px;
+    height:150px ;
+    text-align: center;
+    padding-top: 40px;
+    background-color: bisque;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+       
+}
+
+.info-btn{
+    text-align: center;
+    padding-top: 20px;
+    justify-items: center;
+    
+    
+    
+}
+
+.update-btn{
+    display: inline-flex;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    background-color: bisque;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 0px;
+    justify-content: center;
+     
+   
+        
+    }
+
+    .update-btn input[type=email], textarea{
+background-color:gainsboro;
+    }
+
+
+    .update-btn input[type=text], textarea {
+        background-color: tomato;
+        width: 80px;
+    }
+
+
+    .update-btn input[type=text],text{
+        color: white;
+    }
+
+    .update-btn input::placeholder{
+        color: white;
+    }
+
+   footer{
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-position:center
+   }
+
+    footer h1{
+        color: orangered;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+
+    footer h6{
+        color: white;
+        text-align: center;
+        padding: 0px;
+        font-size: 15px;
+        margin: 0px;
+        
+    }
+    
+   
